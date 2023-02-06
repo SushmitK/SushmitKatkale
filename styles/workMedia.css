@@ -59,6 +59,30 @@
         display: flex;
     }
     .workTouch h1{
+        font-size: 2rem;
+    }
+    .workTouchInfo h2{
+        font-size: 1.8rem;
+    }
+    .liveLink{
+        font-size: 0.9rem;
+    }
+    .GithubLink{
+        font-size: 0.9rem;
+    }
+    .workTouchLinks{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-height: 500px){
+    #work{
+        display: none;
+    }
+    #workForTouch{
+        visibility: visible;
+        display: flex;
+    }
+    .workTouch h1{
         font-size: 1.5rem;
     }
     .workTouchInfo h2{
