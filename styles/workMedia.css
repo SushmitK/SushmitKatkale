@@ -40,7 +40,10 @@
     }
     .workTouchDiv{
         height: 20%;
-        margin: auto;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
     }
     .workTouch h1{
         font-size: 1.5rem;
@@ -56,6 +59,9 @@
     }
     .workTouchLinks{
         margin-top: 10px;
+    }
+    .workTouch{
+        margin: auto;
     }
 }
 
