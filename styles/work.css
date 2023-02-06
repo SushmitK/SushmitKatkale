@@ -1,0 +1,306 @@
+/* -------------------------------- */
+/* .work */
+#work,#workTouchDevices{
+    background-color: var(--primary);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+#workTouchDevices{
+    display: none;
+}
+.works{
+    width: 82%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+}
+.workTitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    left: 10%;
+    font-size: 1rem;
+}
+.workTitles h2{
+    font-family: var(--logoFont);
+    letter-spacing: 2px;
+    visibility: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+.workTitles h2.active{
+    margin: 20px 20px;
+    font-size: 4rem;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 0px 2px rgb(227, 218, 218);
+}
+.workTitles h2.next{
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+    color: rgb(33, 31, 31);
+}
+.next span{
+    display: none;
+}
+.workImages{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    overflow: visible;
+    cursor: pointer;
+}
+.workImages>div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: rgb(222, 86, 86);
+    transform:perspective(0em) rotateX(0deg) rotateY(0deg);
+     border-radius: 50px;
+     visibility: hidden;
+}
+.workImages>.activeImg{
+    visibility: visible;
+}
+.workImages>div>img,.video{
+    height: 100%;
+    width: 115%;
+    position: absolute;
+    top: -10%;
+    right: -20%;
+    transform:perspective(50em) rotateX(5deg) rotateY(-5deg); 
+    animation: workImgAnim 2s ease-in-out;
+    transition: all 0.2s ease-in;
+}
+.arrows{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+}
+.arrows>div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    border-radius: 10px;
+    /* color: white; */
+    border: 2px solid gray;
+    transition: all 0.4s ease-in-out;
+}
+.arrows>div:hover{
+    background-color: rgb(125, 122, 122);
+}
+.arrows>div:active{
+    height: 45px;
+}
+.up{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.down{
+    cursor: pointer;
+}
+.progress{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    height: 50%;
+    width: 2px;
+    border-radius: 50px;
+    background-color: rgb(9, 9, 9);
+    animation: progressAnim 5s ease-in-out infinite;
+    animation-delay: 5s;
+}
+
+/* progressANim */
+@keyframes progressAnim{
+    from{
+        height: 0;
+    }
+    to{
+        height: 50%;
+    }
+} 
+
+
+.linkToSite{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(196, 174, 174);
+    bottom: 10%;
+    right: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.linkToSite::after{
+    content: '';
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: var(--paraFont);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    z-index: -1;
+}
+.linkToSite:hover::after{
+    right: -100%;
+}
+.linkToSite>a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: var(--paraFont);
+}
+
+
+
+
+
+
+
+/* touch devices */
+#workForTouch{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    visibility: hidden;
+    scroll-snap-align: start;
+    font-family: var(--logoFont);
+    display: none;
+}
+.workTouch{
+    height: 95%;
+    width: 80%;
+    overflow-y: scroll;
+}
+.workTouch::-webkit-scrollbar{
+    display: none;
+}
+.workTouch h1{
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+.workTouchDiv{
+    height: 35%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 5px auto;  
+}
+.workTouchDiv:nth-child(even){
+    background-position: 30%;
+}
+.workTouchDiv:nth-child(odd){
+    justify-content: flex-start;  
+    background-position: 70%;
+}
+.workTouch1{
+    background: url(/static/img/portfolio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.workTouch2{
+    background: url(/static/img/music\ player.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.workTouch3{
+    background: url(/static/img/calculator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.workTouchInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40, 10, 54, 0.327);
+    padding: 10px;
+    border-radius: 10px;
+}
+.workTouchInfo h2{
+    font-size: 2.2rem;
+    color: wheat;
+    font-weight: 400;
+}
+.workTouchLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.liveLink{
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+    color: white;
+}
+.liveLink:hover{
+    background-color: rgba(229, 221, 221, 0.273);
+}
+.GithubLink:hover{
+    background-color: rgb(26, 24, 24);
+}
+.GithubLink{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}

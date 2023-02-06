@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1200px){
+    #work{
+        display: none;
+    }
+    #workForTouch{
+        visibility: visible;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .workTouchDiv:nth-child(even){
+        background-position: 25%;
+    }
+    .workTouchDiv:nth-child(odd){ 
+        background-position: 75%;
+    }
+}
+@media only screen and (max-width: 920px){
+    .workTouch{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .workTouchDiv:nth-child(even){
+        background-position: 20%;
+    }
+    .workTouchDiv:nth-child(odd){ 
+        background-position: 80%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .workTouchDiv:nth-child(even){
+        background-position: 15%;
+    }
+    .workTouchDiv:nth-child(odd){ 
+        background-position: 85%;
+    }
+}
+
+
+/* heights */
+@media only screen and (max-height: 650px){
+    #work{
+        display: none;
+    }
+    #workTouchDevices{
+        visibility: visible;
+    }
+}
+@media only screen and (max-height: 650px){
+    #work{
+        display: none;
+    }
+    #workForTouch{
+        visibility: visible;
+        display: flex;
+    }
+    .workTouch h1{
+        font-size: 2.5rem;
+    }
+    .workTouchInfo h2{
+        font-size: 1.8rem;
+    }
+    .liveLink{
+        font-size: 0.9rem;
+    }
+    .GithubLink{
+        font-size: 0.9rem;
+    }
+    .workTouchLinks{
+        margin-top: 10px;
+    }
+}

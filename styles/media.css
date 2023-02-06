@@ -1,0 +1,608 @@
+
+@media only screen and (max-width: 1400px) {
+    .letter{
+        width: 9.8%;
+    }
+
+    .aboutInfo p{
+        font-size: 1.5rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .aboutPage2 h1{
+        font-size: 3rem;
+    }
+    .skill{
+        height: 60px;
+    }
+    .skill h4{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .letter{
+        height: 35%;
+    }
+    .letter>h1{
+        font-size: 6rem;
+    }
+
+    .aboutInfo p{
+        font-size: 1.3rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.3rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutContent{
+        width: 60%;
+    }
+    .aboutInfo{
+        width: 100%;
+    }
+    .myImg{
+        height: 80%;
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 920px) {
+
+    .hide-920{
+        display: none;
+    }
+    .intro{
+        font-size: 1.8rem;
+    }
+    aside,.asideRight{
+        width: 120px;
+        /* background-color: red; */
+    }
+    .menu{
+        height: 120px;
+        width: 70px;
+    }
+    .menu> ul li{
+        margin: 5px 0px;
+    }
+    .line{
+        width: 50px;
+        border-radius: 50%;
+    }
+    .menuTitle{
+        font-size: 1.1rem;
+    }
+    .letter{
+        height: 30%;
+        border-radius: 7px;
+    }
+    .letter>h1{
+        font-size: 5rem;
+    }
+    .logo h1{
+        font-size: 2rem;
+        line-height: 28px;
+    }
+    .icon-size{
+        font-size: 1.5rem;
+    }
+
+    .about{
+        width: 85%;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .intro{
+        font-size: 1.6rem;
+    }
+
+    .aboutContent{
+        width: 65%;
+    }
+    .aboutInfo{
+        width: 100%;
+    }
+    .myImg{
+        height: 60%;
+        width: 35%;
+    }
+    .aboutInfo p{
+        font-size: 1.2rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.3rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .intro{
+        font-size: 1.5rem;
+        width: 75%;
+        height: 45%;
+        justify-content: flex-start;
+    }
+    aside,.asideRight{
+        width: 100px; 
+    }
+    .menu{
+        height: 100px;
+        width: 60px;
+    }
+    .menu> ul li{
+        margin: 3px 0px;
+    }
+    .line{
+        width: 55px;
+        border-radius: 50%;
+    }
+    .menuTitle{
+        font-size: 1rem;
+    }
+
+    .logo h1{
+        font-size: 1.8rem;
+        line-height: 25px;
+    }
+    .icon-size{
+        font-size: 1.3rem;
+    }
+    .letter{
+        height: 25%;
+    }
+    .letter>h1{
+        font-size: 4rem;
+    }
+
+
+    .aboutInfo p{
+        font-size: 1.1rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.2rem;
+    }
+
+
+}
+@media only screen and (max-width: 650px) {
+
+    .hide-650W{
+        display: none;
+    }
+    .intro{
+        font-size: 1.4rem;
+        width: 75%;
+    }
+    aside,.asideRight{
+        width: 90px;
+    }
+    .logo h1{
+        font-size: 1.6rem;
+        line-height: 23px;
+    }
+    .icon-size{
+        font-size: 1.2rem;
+    }
+    .letter{
+        height: 20%;
+    }
+    .letter>h1{
+        font-size: 3rem;
+    }
+
+    .about{
+        flex-direction: column;
+        height: 90%;
+    }
+    .myImg{
+        order: 1;
+        height: 50%;
+        width: 70%;
+    }
+    .myImg img{
+        object-fit: cover;
+        object-position: 0px -80px;
+    }
+    .aboutContent{
+        order: 2;
+        height: 50%;
+        width: 100%;
+    }
+    .aboutPage1{
+        justify-content: center;
+    }
+    .aboutInfo p{
+        margin: 5px 30px;
+    }
+    .aboutInfo p:first-child{
+        margin-bottom: 8px;
+    }
+    .icon-size2{
+        font-size: 1.5rem;
+    }
+    .seeMore a{
+        height: 40px;
+        width: 20px;
+        margin-top: 5px;
+    }
+    .aboutInfo p{
+        font-size: 1.3rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.5rem;
+    }
+
+    .skills{
+        height: 100%;
+    }
+    .aboutPage2 h1{
+        font-size: 1.8rem;
+    }
+    .skill{
+        height: 50px;
+    }
+    .skill h4{
+        font-size: 1rem;
+    }
+    .skillPercent{
+        height: 2px;
+    }
+}
+@media only screen and (max-width: 600px){
+
+    .myImg{
+        height: 40%;
+    }
+    .myImg img{
+        object-position: 0px -40px;
+    }
+    .aboutContent{
+        height: 45%;
+    }
+
+    .icon-size2{
+        font-size: 2rem;
+    }
+    .seeMore a{
+        height: 60px;
+        width: 30px;
+        margin-top: 5px;
+    }
+    
+}
+@media only screen and (max-width: 530px) {
+    .intro{
+        font-size: 1.3rem;
+    }
+
+    aside,.asideRight{
+        width: 70px;
+    }
+
+    .logo h1{
+        font-size: 1.4rem;
+        line-height: 21px;
+    }
+    .icon-size{
+        font-size: 1.1rem;
+    }
+
+    .myImg{
+        height: 40%;
+    }
+    .myImg img{
+        object-position: center;
+    }
+    .aboutContent{
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .intro{
+        font-size: 1.2rem;
+        height: 50%;
+    }
+    .letter{
+        height: 15%;
+        border-radius: 5px;
+    }
+    .letter>h1{
+        font-size: 2rem;
+    }
+    
+
+    .logo h1{
+        font-size: 1.35rem;
+        line-height: 20px;
+    }
+    .icon-size{
+        font-size: 1rem;
+    }
+    .about{
+        height: 97%;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2rem;
+    }
+    .aboutInfo p{
+        font-size: 1.2rem;
+    }
+    .icon-size2{
+        font-size: 1rem;
+    }
+    .seeMore a{
+        height: 40px;
+        width: 20px;
+        margin-top: 1px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .aboutInfo p:first-child{
+        font-size: 1.7rem;
+    }
+    .aboutInfo p{
+        font-size: 1rem;
+    }
+    .about{
+        height: 95%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .intro{
+        font-size: 1.1rem;
+        height: 50%;
+        width: 80%;
+    }
+
+    .letter{
+        height: 15%;
+    }
+    .letter>h1{
+        font-size: 2rem;
+    }
+
+    .aboutInfo p:first-child{
+        font-size: 1.4rem;
+    }
+    .aboutInfo p{
+        font-size: 0.9rem;
+    }
+    .about{
+        height: 97%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* heights */
+
+@media only screen and (max-height: 800px) {
+    @keyframes hrAnim{
+        from{
+            height: 350px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 360px;
+        }
+        to{
+            height: 350px;
+        }
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    @keyframes hrAnim{
+        from{
+            height: 300px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 310px;
+        }
+        to{
+            height: 300px;
+        }
+    }
+
+    .aboutInfo{
+        overflow: visible;
+    }
+    
+}
+
+@media only screen and (max-height: 650px) {
+    .hide-920{
+        display: none;
+    }
+    @keyframes hrAnim{
+        from{
+            height: 250px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 255px;
+        }
+        to{
+            height: 250px;
+        }
+    }
+    .intro{
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    @keyframes hrAnim{
+        from{
+            height: 200px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 205px;
+        }
+        to{
+            height: 200px;
+        }
+    }
+    .icon-size2{
+        font-size: 1.2rem;
+    }
+    .seeMore a{
+        height: 40px;
+        width: 20px;
+        margin-top: 1px;
+
+    }
+    .myImg{
+        height: 40%;
+    }
+    .aboutContent{
+        height: 60%;
+    }
+
+
+}
+
+@media only screen and (max-height: 550px) {
+    .hide-550H{
+        display: none;
+    }
+    @keyframes hrAnim{
+        from{
+            height: 100px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 105px;
+        }
+        to{
+            height: 100px;
+        }
+    }
+
+    .social a i{
+        margin: 5px 0px;
+    }
+    .social{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-height: 460px) {
+    /* aside hr{
+        display: none;
+    } */
+
+    .asideRight hr{
+        margin-bottom: 50px;
+    }
+    @keyframes hrAnim{
+        from{
+            height: 150px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 155px;
+        }
+        to{
+            height: 150px;
+        }
+    }
+    .myImg{
+        height: 35%;
+    }
+    .aboutContent{
+        height: 65%;
+    }
+    
+}
+
+@media only screen and (max-height: 440px) {
+
+    .asideRight hr{
+        margin-bottom: 10px;
+    }
+    @keyframes hrAnim{
+        from{
+            height: 100px;
+        }
+        50%{
+            height: 0px;
+        }
+        90%{
+            height: 105px;
+        }
+        to{
+            height: 100px;
+        }
+    }
+
+    .about{
+        flex-direction: row;
+        height: 90%;
+    }
+    .myImg{
+        order: 1;
+        height: 40%;
+        width: 70%;
+    }
+    .myImg img{
+        object-fit: cover;
+        object-position: 0px -80px;
+    }
+    .aboutContent{
+        order: 2;
+        height: 40%;
+        width: 100%;
+    }
+    .aboutPage1{
+        justify-content: flex-start;
+    }
+    .aboutInfo p{
+        margin: 5px 30px;
+    }
+    .aboutInfo p:first-child{
+        margin-bottom: 8px;
+    }
+    .icon-size2{
+        font-size: 1.5rem;
+    }
+    .seeMore a{
+        height: 40px;
+        width: 20px;
+        margin-top: 5px;
+    }
+    .aboutInfo p{
+        font-size: 1rem;
+    }
+    .aboutInfo p:first-child{
+        font-size: 2.1rem;
+    }
+    
+}
