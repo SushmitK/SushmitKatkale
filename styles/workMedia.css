@@ -35,6 +35,9 @@
     .workTouchDiv:nth-child(odd){ 
         background-position: 85%;
     }
+    .workTouchDiv{
+        height: 20%;
+    }
 }
 
 
